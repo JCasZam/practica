@@ -29,13 +29,11 @@
         </div>
         <button type="button" class="btn btn-primary mb-2" onclick="obtenerId()">Buscar</button>
     </form>
-
-            <!-- En este siguiente bloque de codigo me muestra los datos con el id pero lo pongo manualmente.
-             Cuando lo declaro como esta comentado en la siguiente linea me marca id is not defined. -->
-    <!--   <% if(book.id== id){ %> -->  
     <% books.forEach(function(book){ %>
-        <% if(book.id== 20){ %>
-            
+        <!-- En este siguiente bloque de codigo me muestra los datos con el id pero lo pongo manualmente.
+             Cuando lo declaro como esta comentado en la siguiente linea me marca id is not defined.
+           if(book.id== id) -->  
+        <% if(book.id== 20){ %>                  
             <div class="container p-4">
                 <p style="margin: 10px;">
                     Resultados de la busqueda:
