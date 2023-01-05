@@ -1,1 +1,74 @@
-[{"id":"21","nombre":"Juan","direccion":"Palmas #46 Colonia Vicente Guerrero","edad":"24","telefono":"312123","sexo":"M","cuentabanco":{"numerotarjeta":"5041 1234 1234 1234","fechavencimiento":"2023-06-07","lineacredito":{"saldodisponible":"$5000","saldoporpagar":"$5000"},"tipotarjeta":"TDD","tipoproducto":"VISA"}},{"id":"22","nombre":"Alfonso","direccion":"Palmas #46 Colonia Vicente Guerrero","edad":"23","telefono":"312123","sexo":"M","cuentabanco":{"numerotarjeta":"5041 1234 1234 1234","fechavencimiento":"2023-06-07","lineacredito":{"saldodisponible":"$8000","saldoporpagar":"$5000"},"tipotarjeta":"TDD","tipoproducto":"Mastercard"}},{"id":"45","nombre":"Daniela","direccion":"Enrique Segoviano","edad":"24","telefono":"735 316 99 28","sexo":"M","cuentabanco":{"numerotarjeta":"5041 1234 1234 1333","fechavencimiento":"2023-02-04","lineacredito":{"saldodisponible":"$5000","saldoporpagar":"$4000"},"tipotarjeta":"TDC","tipoproducto":"Amex"}}]
+[
+    {
+        "id": "20",
+        "nombre": "Juan",
+        "direccion": "Palmas #46 Colonia Vicente Guerrero",
+        "edad": "24",
+        "telefono": "312123",
+        "sexo": "M",
+        "cuentabanco": {
+            "numerotarjeta": "5041 1234 1234 1234",
+            "fechavencimiento": "2023-06-07",
+            "lineacredito": {
+                "saldodisponible": "$5000",
+                "saldoporpagar": "$5000"
+            },
+            "tipotarjeta": "TDD",
+            "tipoproducto": "VISA"
+        }
+    },
+    {
+        "id": "22",
+        "nombre": "Alfonso",
+        "direccion": "Palmas #46 Colonia Vicente Guerrero",
+        "edad": "23",
+        "telefono": "312123",
+        "sexo": "M",
+        "cuentabanco": {
+            "numerotarjeta": "5041 1234 1234 1234",
+            "fechavencimiento": "2023-06-07",
+            "lineacredito": {
+                "saldodisponible": "$8000",
+                "saldoporpagar": "$5000"
+            },
+            "tipotarjeta": "TDD",
+            "tipoproducto": "Mastercard"
+        }
+    },
+    {
+        "id": "45",
+        "nombre": "Daniela",
+        "direccion": "Enrique Segoviano",
+        "edad": "24",
+        "telefono": "735 316 99 28",
+        "sexo": "F",
+        "cuentabanco": {
+            "numerotarjeta": "5041 1234 1234 1333",
+            "fechavencimiento": "2023-02-04",
+            "lineacredito": {
+                "saldodisponible": "$5000",
+                "saldoporpagar": "$4000"
+            },
+            "tipotarjeta": "TDC",
+            "tipoproducto": "Amex"
+        }
+    },
+    {
+        "id": "46",
+        "nombre": "Daniela",
+        "direccion": "Enrique Segoviano",
+        "edad": "24",
+        "telefono": "735 316 99 28",
+        "sexo": "F",
+        "cuentabanco": {
+            "numerotarjeta": "5041 1234 1234 1333",
+            "fechavencimiento": "2023-02-04",
+            "lineacredito": {
+                "saldodisponible": "$5000",
+                "saldoporpagar": "$4000"
+            },
+            "tipotarjeta": "TDC",
+            "tipoproducto": "Amex"
+        }
+    }
+]
