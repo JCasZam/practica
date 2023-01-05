@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/header') %>
+        <title>Document</title>
+</head>
+
+<body>
+    <div class="container p-4">
+        <form method=POST action="/new-entry" class="card card-body">
+
+            <div class="form-group">
+                <label for="">Id</label>
+                <input type="text" class="form-control" name="id" id="id" placeholder="Ingresa datos" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="title" placeholder="Ingresa datos" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Direccion</label>
+                <input type="text" class="form-control" name="direccion" id="direccion" placeholder=" Ingresa datos"" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Edad</label>
+                <input type="text" class="form-control" name="edad" id="edad" placeholder="Ingresa datos" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Telefono</label>
+                <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Ingresa datos" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Sexo</label>
+                <input type="text" class="form-control" name="sexo" id="sexo" placeholder="Ingresa datos" required>
+            </div>  
+            
+                <div class="form-group">
+                    <label for="">Numero de tarjeta</label>
+                    <input type="text" class="form-control" name="numerotarjeta" id="numerotarjeta" placeholder="Ingresa datos" required>
+                </div>  
+
+                <div class="form-group">
+                    <label for="">Fecha Vencimiento</label>
+                    <input type="date" class="form-control" name="fechavencimiento" id="fechavencimiento" placeholder="Ingresa datos" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="">Saldo disponible</label>
+                    <input type="text" class="form-control" name="saldodisponible" id="saldodisponible" placeholder="Ingresa datos" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="">Saldo por pagar</label>
+                    <input type="text" class="form-control" name="saldoporpagar" id="saldoporpagar" placeholder="Ingresa datos" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="">Tipo tarjeta</label>
+                    <input type="text" class="form-control" name="tipotarjeta" id="tipotarjeta" placeholder="Ingresa datos" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="">Tipo producto</label>
+                    <input type="text" class="form-control" name="tipoproducto" id="tipoproducto" placeholder="Ingresa datos" required>
+                </div> 
+
+            <input type="submit" value="Guarda Datos" class="btn btn-primary">
+        </form>
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
